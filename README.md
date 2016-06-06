@@ -28,8 +28,6 @@ This project is a code demo designed to respect your time as a developer, and re
 
 ### Run Instructions:
 
-_from the [metadata_](https://github.com/jammazwan/jammazwan.maker/blob/master/src/main/resources/xyzprojects.json):
-
 _run XacTest and re-create surname.txt from surname.csv, which remains intact in jammazwan.shared._
 
 ### Other notes:
