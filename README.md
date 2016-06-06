@@ -26,9 +26,9 @@ Now you may import this (or both) into your IDE, either via it's pom, or as a na
 
 This project is a code demo designed to respect your time as a developer, and remove any confusion when you replicate it. See [**_this blog_**](https://betterologist.net/2016/05/jammazwan-projects-for-learning-apache-camel/) for more insights on why this was created.
 
-### Special Instructions:
+### Run Instructions:
 
-If there are any special instructions for this project from the [metadata](https://github.com/jammazwan/jammazwan.maker/blob/master/src/main/resources/xyzprojects.json):
+_from the [metadata_](https://github.com/jammazwan/jammazwan.maker/blob/master/src/main/resources/xyzprojects.json):
 
 _run XacTest and re-create surname.txt from surname.csv, which remains intact in jammazwan.shared._
 
