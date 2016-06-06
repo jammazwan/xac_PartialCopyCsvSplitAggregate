@@ -5,6 +5,8 @@ import org.junit.Test;
 import org.springframework.context.support.AbstractXmlApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import jammazwan.util.HoldContextOpenUntilDone;
+
 public class XacTest extends CamelSpringTestSupport {
 
     @Override
@@ -14,8 +16,7 @@ public class XacTest extends CamelSpringTestSupport {
 
     @Test
     public void testXac() throws Exception {
-        String reply = template.requestBody("direct:xac", "No Meaning Here", String.class);
-		assertEquals("My No Meaning Here", reply);
+		HoldContextOpenUntilDone.go(context);
     }
 
 }
