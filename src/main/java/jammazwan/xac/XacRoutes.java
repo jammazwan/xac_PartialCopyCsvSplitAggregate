@@ -9,7 +9,7 @@ public class XacRoutes extends RouteBuilder {
 
 	@Override
 	public void configure() throws Exception {
-		from("file:../jammazwan.shared/src/main/resources/data/?noop=true&fileName=surname.csv")
+		from("file:../jammazwan.shared/src/main/resources/data/csv/?noop=true&fileName=surname.csv")
 				.unmarshal("csv").split(body()).process(new Processor() {
 					public void process(Exchange exchange) throws Exception {
 						String line = exchange.getIn().getBody(String.class);
@@ -18,7 +18,7 @@ public class XacRoutes extends RouteBuilder {
 						exchange.getIn().setHeader("CamelFileName", "surname.txt");
 					}
 				}).aggregate(header("CamelFileName"), new MyAggregationStrategy()).completionSize(100)
-				.completionTimeout(1000).to("file://src/main/resources/data/")
+				.completionTimeout(1000).to("file://src/main/resources/data/txt/")
 		;
 	}
 
