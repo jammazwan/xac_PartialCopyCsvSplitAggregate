@@ -4,14 +4,18 @@
 | --- | --- |
 |<img class="style-svg" src="https://betterologist.net/wp-content/uploads/2016/05/pete-300x297.jpg" alt="pete" width="116" height="115" />|<img class="style-svg" src="https://betterologist.net/wp-content/uploads/2016/05/jammazwanPhotoSmall.png" alt="jammazwanPhotoSmall" width="200" height="116" />|
 
+##### Complete working Camel example project, compiled and IDE ready in 60 seconds
 ---
 
 ### PartialCopyCsvSplitAggregate 
-##### Complete working Camel example project, compiled and IDE ready in 60 seconds
 
 Functionality: **_Create single field .csv file from multiple field .csv file, using simple splitter and aggregation_**
 
-First, this project requires [jammazwan.shared](https://github.com/jammazwan/jammazwan.shared), if not in your IDE then at least in your mvn repository:
+---
+
+### Setup: 
+
+#### Install Dependency Project:First, this project requires [jammazwan.shared](https://github.com/jammazwan/jammazwan.shared), if not in your IDE then at least in your mvn repository:
 
 _You may skip this step if you already imported jammazwan.shared with another x_project!_
 
@@ -24,18 +28,20 @@ cd jammazwan.shared
 mvn install
 ```
 
-Git clone the ${headers.xyzCode}_${headers.projectName} project into your workspace:
+#### Install This Project:
+
+Git clone the xac_null project into your workspace:
 
 _from your bash shell:_
 
 ```bash
 cd yourworkspacedirectory
-git clone https://github.com/jammazwan/${headers.xyzCode}_${headers.projectName}.git
-cd ${headers.xyzCode}_${headers.projectName}
+git clone https://github.com/jammazwan/xac_null.git
+cd xac_null
 mvn install -DskipTests
 ```
 
-You man now import ${headers.xyzCode}_${headers.projectName} into your IDE.
+You man now import xac_null into your IDE.
 Importing [jammazwan.shared](https://github.com/jammazwan/jammazwan.shared) into your IDE is also sometimes helpful, but not required.
 
 
@@ -46,6 +52,8 @@ Importing [jammazwan.shared](https://github.com/jammazwan/jammazwan.shared) into
 
 _run XacTest and re-create surname.txt from surname.csv, which remains intact in jammazwan.shared._
 
-### For More Information: FAQ:
+---
+
+### For More Information:
 
 [Jammazwan x__project FAQ](https://betterologist.net/2016/06/jammazwan-faq/)
