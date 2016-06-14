@@ -32,18 +32,18 @@ mvn install
 
 #### Install This Project:
 
-Git clone the xac_null project into your workspace:
+Git clone the xac_PartialCopyCsvSplitAggregate project into your workspace:
 
 _from your bash shell:_
 
 ```bash
 cd yourworkspacedirectory
-git clone https://github.com/jammazwan/xac_null.git
-cd xac_null
+git clone https://github.com/jammazwan/xac_PartialCopyCsvSplitAggregate.git
+cd xac_PartialCopyCsvSplitAggregate
 mvn install -DskipTests
 ```
 
-You man now import xac_null into your IDE.
+You man now import xac_PartialCopyCsvSplitAggregate into your IDE.
 Importing [jammazwan.shared](https://github.com/jammazwan/jammazwan.shared) into your IDE is also sometimes helpful, but not required.
 
 
