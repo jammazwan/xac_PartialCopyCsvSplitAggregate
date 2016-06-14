@@ -15,9 +15,11 @@ Functionality: **_Create single field .csv file from multiple field .csv file, u
 
 ### Setup: 
 
-#### Install Dependency Project:First, this project requires [jammazwan.shared](https://github.com/jammazwan/jammazwan.shared), if not in your IDE then at least in your mvn repository:
+#### Install Dependency Project:
 
-_You may skip this step if you already imported jammazwan.shared with another x_project!_
+First, this project requires [jammazwan.shared](https://github.com/jammazwan/jammazwan.shared), if not in your IDE then at least in your mvn repository:
+
+You may skip this step if you already imported jammazwan.shared with another x_project!
 
 _from your bash shell:_
 
